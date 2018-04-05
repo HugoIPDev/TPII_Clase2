@@ -7,7 +7,7 @@ Comados de sistema
 	ls enlista archivos y carpetas
 	ls -a  enlista todos los archivos y carpetas
 Terminologia
-	Repositorio-> 
+	Repositorio -> 
 
 Comandos de git
 	git config --global user.name nombre
@@ -20,8 +20,10 @@ Comandos de git
 
 	git status  permite saber el estatus del repositorio
 	git log	    Permite ver el historial de commits
-	git clone	Copiar un repositorio de otra ubi
-cacion
+	git clone	Copiar un repositorio de otra ubicacion
 
 	git remote Crear un repistorio espejo que mantendra un vinculo local de un repositorio remoto
 	git remote add 	<origin> <url o direccion del repositorio> Crear el vinculo a otro repositorio
+	git remote rm <origin>  Elimina un repositorio remoto	
+
+	git push -u origin master
