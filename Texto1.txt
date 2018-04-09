@@ -27,3 +27,10 @@ Comandos de git
 	git remote rm <origin>  Elimina un repositorio remoto	
 
 	git push -u origin master
+	
+	git checkout -b <nombreDelNuevoBranch> Crea un nuevo branch y nos situa en el mismo
+	git checkout <NombreDeBranchYaExistente> Nos mueve al branch determinado (no debe haber cosas pendientes en staggin area)
+	git branch -v Permite ver los nombres de los branches en nuestro repositorio
+	
+	git merge <branchDeDondeVienenLosCambios>Fusiona los cambios de dos branch 
+	
